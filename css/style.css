@@ -19,7 +19,7 @@ body{
     color: #502314;
 }
 
-.banner .banner-content .delivery{
+.banner .banner-content .delivery a{
     transition: all 0.5s ease-in-out;
 }
 
@@ -29,16 +29,27 @@ body{
 
 /* banner end */
 
-/* OFFER SECTION START */
+/* offer section start */
+
 .offer .card .card-body .btn a{
     border-color: #502314 !important;
-    font-family: 'Times New Roman', Times, serif;
     color: #502314 !important;
 }
-/* OFFER SECTION END */
 
-/* APP - INFO SECTION START */
+.offer .card .card-body .btn a{
+    transition: all 0.5s ease-in-out;
+}
+
+.offer .card .card-body .btn a:hover{
+    background-color: rgba(107, 106, 106, 0.151);
+}
+
+/* offer section end */
+
+/* app section start */
+
 .app-info .app-info-content h2, .app-info .app-info-content p{
     color: #502314;
 }
-/* APP - INFO SECTION END */
+
+/* app section end */
