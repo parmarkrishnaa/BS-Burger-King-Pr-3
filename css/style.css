@@ -1,53 +1,44 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.food-event .online{
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    background-color: #f8f1e7;
+}
+
+/* banner start */
+
+.banner h2, .offer .card .card-body .card-title{
+    color: #502314;
+}
+
+.banner .banner-content .delivery{
     transition: all 0.5s ease-in-out;
 }
 
-.food-event .online:hover{
-    transform: scale(1.1);
+.banner .banner-content .delivery:hover a{
+    background-color: rgba(107, 106, 106, 0.151);
 }
 
-.food-event .dining{
-    transition: all 0.5s ease-in-out;
-}
+/* banner end */
 
-.food-event .dining:hover{
-    transform: scale(1.1);
+/* OFFER SECTION START */
+.offer .card .card-body .btn a{
+    border-color: #502314 !important;
+    font-family: 'Times New Roman', Times, serif;
+    color: #502314 !important;
 }
+/* OFFER SECTION END */
 
-.food-event .event{
-    transition: all 0.5s ease-in-out;
+/* APP - INFO SECTION START */
+.app-info .app-info-content h2, .app-info .app-info-content p{
+    color: #502314;
 }
-
-.food-event .event:hover{
-    transform: scale(1.1);
-}
-
-.local .box-1 a, .box-2 a, .box-3 a, .box-4 a, .box-5 a, .box-6 a, .box-7 a, .box-8 a, .box-9 a{
-    transition: all 0.5s ease-in-out;
-}
-
-.local .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover, .box-6:hover, .box-7:hover, .box-8:hover, .box-9:hover{
-    box-shadow: rgba(155, 142, 142, 0.336) 0px 1.42623px;
-}
-
-.icons i{
-    background-color: black;
-    color: white;
-    font-size: 14px;
-    padding: 3px 5px;
-    border-radius: 50%;
-}
-
-footer .about ul li a, .verse ul li a, .rest ul li a, .learn ul li a{
-    color: gray;
-}
-
-footer .about ul li:hover a, .verse ul li:hover a, .rest ul li:hover a, .learn ul li:hover a{
-    color: rgba(0, 0, 0, 0.822);
-}
+/* APP - INFO SECTION END */
